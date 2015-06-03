@@ -13,13 +13,17 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.cacher.lee_activity_launchmode.activity.MainActivity"
-            android:launchMode="standard" >
+            android:name="com.cacher.lee_activity_launchmode.activity.A"
+            android:launchMode="singleInstance" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cacher.lee_activity_launchmode.activity.B"
+            android:launchMode="standard" >
         </activity>
     </application>
 
